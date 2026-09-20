@@ -6,6 +6,15 @@ APIs instead of TypeSafe.
 Useful for comparing TypeSafe against an LLM on
 cost/speed/intelligence.
 
+## Finding-routing experiment
+
+The [context filtering and explicit review example](examples/finding-routing.md)
+compares unfiltered, filtered, and guarded routing. It measures important
+misroutes alongside review workload and coverage, not just latency. Run
+`python -m examples.finding_routing` after installing this checkout for a local,
+network-free demonstration. Included cases and model responses are synthetic;
+they are not evidence of Jev accuracy. Live evaluations require explicit opt-in.
+
 ## Install
 
 The provider SDKs are optional extras — install the one(s) you use:
